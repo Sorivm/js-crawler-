@@ -1,0 +1,33 @@
+{
+  "name": "recon-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler for reconnaissance purposes using Puppeteer and TypeScript.",
+  "main": "dist/crawler.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/crawler.js",
+    "dev": "tsc -w & node --watch dist/crawler.js"
+  },
+  "keywords": [
+    "web-crawler",
+    "reconnaissance",
+    "puppeteer",
+    "typescript",
+    "security-tool"
+  ],
+  "author": "erfan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "puppeteer": "^22.0.0",
+    "robots-txt-parser": "^2.0.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.11.0",
+    "@types/node": "^20.0.0",
+    "@types/puppeteer": "^7.0.0",
+    "@types/xml2js": "^0.4.14",
+    "typescript": "^5.0.0"
+  }
+}
